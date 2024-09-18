@@ -1,11 +1,10 @@
-alert("generating Poem");
 
 function generatePoem(event) {
   event.preventDefault();
-  alert("Generating Poem");
+  
 
   new Typewriter("#Poem", {
-    strings: ["What is stronger than the human heart"],
+    strings: "What is stronger than the human heart",
     autoStart: true,
     delay:1
     cursor:"",
