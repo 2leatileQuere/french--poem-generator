@@ -59,6 +59,9 @@ form {
   line-height: 2;
   border-left: 3px solid #885df1;
 }
+.poem strong {
+  color: #885df1;
+}
 
 footer {
   text-align: center;
