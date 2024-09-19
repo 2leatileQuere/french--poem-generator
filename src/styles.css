@@ -1,10 +1,10 @@
 body {
-  background-color: beige;
+  background-color: white;
   font-family: "Times New Roman", Times, serif;
 }
 
 a {
-  color: beige;
+  color: black;
 }
 
 .container {
@@ -21,7 +21,7 @@ h1 {
   font-weight: 800;
   font-size: 36px;
   line-height: 1.5;
-  color: rgb(226, 180, 43);
+  color: rgb(43, 226, 101);
 }
 
 form {
@@ -39,7 +39,7 @@ form {
   font-size: 16px;
   border-radius: 50px;
   line-height: 20px;
-  color: bisque;
+  color: black;
 }
 
 .submit-button {
