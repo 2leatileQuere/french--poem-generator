@@ -11,24 +11,27 @@
   <body>
     <div class="container">
       <header>
-        <h1>Welcome to my poem generator AI</h1>
+        <h1>Poem Generator</h1>
       </header>
 
       <main>
         <form id="poem-generator-form">
           <input
             type="text"
-            placeholder="Enter the topic of the English poem"
+            placeholder="Enter the topic of the poem"
             autofocus
             required
             autocomplete="off"
             class="instructions"
+            id="user-instructions"
           />
           <input type="submit" class="submit-button" />
         </form>
 
-        <div class="poem" id="poem"></div>
-      </main>
+        <div class="hint"> i.e: Love, Happiness, Loneliness or Heartbreak</div>
+      </div>
+      <div class = "poem hidden" id="poem"></div>
+    </main>
 
       <footer>
         This AI project was coded by

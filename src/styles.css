@@ -1,10 +1,11 @@
 body {
-  background-color: white;
+  background-image: url(https://images.pexels.com/photos/459335/pexels-photo-459335.jpeg);
+  background-size: cover;
   font-family: "Times New Roman", Times, serif;
 }
 
 a {
-  color: black;
+  color: white;
 }
 
 .container {
@@ -21,11 +22,12 @@ h1 {
   font-weight: 800;
   font-size: 36px;
   line-height: 1.5;
-  color: rgb(43, 226, 101);
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 form {
-  padding: 30px;
+  padding: 16px;
   background-color: whitesmoke;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
   border-radius: 10px;
@@ -36,7 +38,7 @@ form {
   padding: 16px;
   border: 1px solid rgba(39, 33, 66, 0.5);
   width: 80%;
-  font-size: 16px;
+  font-size: 13px;
   border-radius: 50px;
   line-height: 20px;
   color: black;
@@ -53,10 +55,10 @@ form {
   padding: 14px 24px;
 }
 .poem {
-  font-size: 16px;
-  background-color: #fff;
+  font-size: 100px;
+  background-color: black;
   padding: 20px;
-  line-height: 2;
+  line-height: 4;
   border-left: 3px solid #885df1;
 }
 .poem strong {
@@ -65,6 +67,22 @@ form {
 
 footer {
   text-align: center;
-  font-size: 13px;
-  margin-top: 3Opx;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.generating {
+  animation: blink-animination 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animination {
+  to {
+    visibility: hidden;
+  }
+}
+
+@-webkit-keyframes blink-animination {
+  to {
+    visibility: hidden;
+  }
 }
