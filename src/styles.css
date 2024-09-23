@@ -1,5 +1,5 @@
 body {
-  background-image: url(https://images.pexels.com/photos/459335/pexels-photo-459335.jpeg);
+  background-image: url(https://images.pexels.com/photos/751373/pexels-photo-751373.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
   background-size: cover;
   font-family: "Times New Roman", Times, serif;
 }
@@ -38,7 +38,7 @@ form {
   padding: 16px;
   border: 1px solid rgba(39, 33, 66, 0.5);
   width: 80%;
-  font-size: 13px;
+  font-size: 15px;
   border-radius: 50px;
   line-height: 20px;
   color: black;
@@ -46,7 +46,7 @@ form {
 
 .submit-button {
   margin-left: 10px;
-  background: #885df1;
+  background: black;
   color: white;
   border: none;
   width: 150px;
@@ -55,20 +55,20 @@ form {
   padding: 14px 24px;
 }
 .poem {
-  font-size: 100px;
-  background-color: black;
+  font-size: 20px;
+  background-color: whitesmoke;
   padding: 20px;
-  line-height: 4;
-  border-left: 3px solid #885df1;
+  line-height: 1;
+  border-left: 2px solid black;
 }
 .poem strong {
-  color: #885df1;
+  color: black;
 }
 
 footer {
   text-align: center;
-  font-size: 20px;
-  margin-top: 15px;
+  font-size: 14px;
+  margin-top: 10px;
 }
 
 .generating {
